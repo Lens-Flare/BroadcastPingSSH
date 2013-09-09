@@ -1,0 +1,221 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4263B9D017DE8C610038D853 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 4263B9CF17DE8C610038D853 /* main.c */; };
+		4263B9D217DE8C610038D853 /* BroadcastPingSSH.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4263B9D117DE8C610038D853 /* BroadcastPingSSH.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4263B9CA17DE8C610038D853 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				4263B9D217DE8C610038D853 /* BroadcastPingSSH.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4263B9CC17DE8C610038D853 /* BroadcastPingSSH */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = BroadcastPingSSH; sourceTree = BUILT_PRODUCTS_DIR; };
+		4263B9CF17DE8C610038D853 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		4263B9D117DE8C610038D853 /* BroadcastPingSSH.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = BroadcastPingSSH.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4263B9C917DE8C610038D853 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4263B9C317DE8C610038D853 = {
+			isa = PBXGroup;
+			children = (
+				4263B9CE17DE8C610038D853 /* BroadcastPingSSH */,
+				4263B9CD17DE8C610038D853 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4263B9CD17DE8C610038D853 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4263B9CC17DE8C610038D853 /* BroadcastPingSSH */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4263B9CE17DE8C610038D853 /* BroadcastPingSSH */ = {
+			isa = PBXGroup;
+			children = (
+				4263B9CF17DE8C610038D853 /* main.c */,
+				4263B9D117DE8C610038D853 /* BroadcastPingSSH.1 */,
+			);
+			path = BroadcastPingSSH;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4263B9CB17DE8C610038D853 /* BroadcastPingSSH */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4263B9D517DE8C610038D853 /* Build configuration list for PBXNativeTarget "BroadcastPingSSH" */;
+			buildPhases = (
+				4263B9C817DE8C610038D853 /* Sources */,
+				4263B9C917DE8C610038D853 /* Frameworks */,
+				4263B9CA17DE8C610038D853 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BroadcastPingSSH;
+			productName = BroadcastPingSSH;
+			productReference = 4263B9CC17DE8C610038D853 /* BroadcastPingSSH */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4263B9C417DE8C610038D853 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Lens Flare";
+			};
+			buildConfigurationList = 4263B9C717DE8C610038D853 /* Build configuration list for PBXProject "BroadcastPingSSH" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4263B9C317DE8C610038D853;
+			productRefGroup = 4263B9CD17DE8C610038D853 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4263B9CB17DE8C610038D853 /* BroadcastPingSSH */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4263B9C817DE8C610038D853 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4263B9D017DE8C610038D853 /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4263B9D317DE8C610038D853 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		4263B9D417DE8C610038D853 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		4263B9D617DE8C610038D853 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4263B9D717DE8C610038D853 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4263B9C717DE8C610038D853 /* Build configuration list for PBXProject "BroadcastPingSSH" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4263B9D317DE8C610038D853 /* Debug */,
+				4263B9D417DE8C610038D853 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4263B9D517DE8C610038D853 /* Build configuration list for PBXNativeTarget "BroadcastPingSSH" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4263B9D617DE8C610038D853 /* Debug */,
+				4263B9D717DE8C610038D853 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4263B9C417DE8C610038D853 /* Project object */;
+}

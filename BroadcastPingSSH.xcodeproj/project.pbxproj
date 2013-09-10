@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		4263B9D017DE8C610038D853 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 4263B9CF17DE8C610038D853 /* main.c */; };
 		4263B9D217DE8C610038D853 /* BroadcastPingSSH.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4263B9D117DE8C610038D853 /* BroadcastPingSSH.1 */; };
+		4263B9D917DE8C6F0038D853 /* asdf.c in Sources */ = {isa = PBXBuildFile; fileRef = 4263B9D817DE8C6F0038D853 /* asdf.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +29,7 @@
 		4263B9CC17DE8C610038D853 /* BroadcastPingSSH */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = BroadcastPingSSH; sourceTree = BUILT_PRODUCTS_DIR; };
 		4263B9CF17DE8C610038D853 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		4263B9D117DE8C610038D853 /* BroadcastPingSSH.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = BroadcastPingSSH.1; sourceTree = "<group>"; };
+		4263B9D817DE8C6F0038D853 /* asdf.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = asdf.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 			children = (
 				4263B9CF17DE8C610038D853 /* main.c */,
 				4263B9D117DE8C610038D853 /* BroadcastPingSSH.1 */,
+				4263B9D817DE8C6F0038D853 /* asdf.c */,
 			);
 			path = BroadcastPingSSH;
 			sourceTree = "<group>";
@@ -118,6 +121,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4263B9D017DE8C610038D853 /* main.c in Sources */,
+				4263B9D917DE8C6F0038D853 /* asdf.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
